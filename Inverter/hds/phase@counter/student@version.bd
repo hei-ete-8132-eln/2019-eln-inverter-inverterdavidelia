@@ -117,19 +117,19 @@ value "U:\\Git_Inverter\\2019-eln-inverter-inverterdavidelia\\Prefs\\..\\Inverte
 )
 (vvPair
 variable "date"
-value "05.12.2019"
+value "09.12.2019"
 )
 (vvPair
 variable "day"
-value "jeu."
+value "lun."
 )
 (vvPair
 variable "day_long"
-value "jeudi"
+value "lundi"
 )
 (vvPair
 variable "dd"
-value "05"
+value "09"
 )
 (vvPair
 variable "designName"
@@ -161,7 +161,7 @@ value "elia.scapini"
 )
 (vvPair
 variable "graphical_source_date"
-value "05.12.2019"
+value "09.12.2019"
 )
 (vvPair
 variable "graphical_source_group"
@@ -169,11 +169,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "WEA20110"
+value "WEA20305"
 )
 (vvPair
 variable "graphical_source_time"
-value "11:12:08"
+value "14:48:04"
 )
 (vvPair
 variable "group"
@@ -181,7 +181,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WEA20110"
+value "WEA20305"
 )
 (vvPair
 variable "language"
@@ -261,7 +261,7 @@ value "studentVersion"
 )
 (vvPair
 variable "time"
-value "11:12:08"
+value "14:48:04"
 )
 (vvPair
 variable "unit"
@@ -700,7 +700,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "61200,63400,77300,64600"
+xt "61200,63400,79200,64600"
 st "
 by %user on %dd %month %year
 "
@@ -1208,8 +1208,7 @@ font "Verdana,8,0"
 )
 xt "44000,45800,63200,47800"
 st "delay         = gateDelay     ( time     )  
-registerBitNb = phaseBitNb    ( positive )  
-"
+registerBitNb = phaseBitNb    ( positive )  "
 )
 header ""
 )
@@ -1444,8 +1443,7 @@ font "Courier New,8,0"
 )
 xt "32000,24400,54000,26000"
 st "dataBitNb = phaseBitNb    ( positive )  
-delay     = gateDelay     ( time     )  
-"
+delay     = gateDelay     ( time     )  "
 )
 header ""
 )
@@ -1487,7 +1485,7 @@ uid 538,0
 decl (Decl
 n "out1"
 t "unsigned"
-b "(dataBitNb-1 DOWNTO 0)"
+b "(phaseBitNb-1 downto 0)"
 o 6
 suid 7,0
 )
@@ -1496,8 +1494,8 @@ uid 539,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "0,15000,22300,16000"
-st "SIGNAL out1  : unsigned(dataBitNb-1 DOWNTO 0)
+xt "0,15000,22200,16000"
+st "SIGNAL out1  : unsigned(phaseBitNb-1 downto 0)
 "
 )
 )
@@ -1752,6 +1750,7 @@ blo "36000,28800"
 tm "WireNameMgr"
 )
 s (Text
+uid 575,0
 va (VaSet
 font "Verdana,12,0"
 )
@@ -1917,8 +1916,8 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-8,-8,1928,1058"
-viewArea "-27585,-8261,103931,63965"
+windowSize "0,0,1921,1066"
+viewArea "-27600,-8300,104454,62680"
 cachedDiagramExtent "-3000,0,107000,65000"
 pageSetupInfo (PageSetupInfo
 ptrCmd ""
@@ -1942,7 +1941,7 @@ exportStdPackageRefs 1
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "-3000,0"
-lastUid 551,0
+lastUid 575,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -3090,7 +3089,7 @@ m 4
 decl (Decl
 n "out1"
 t "unsigned"
-b "(dataBitNb-1 DOWNTO 0)"
+b "(phaseBitNb-1 downto 0)"
 o 6
 suid 7,0
 )
