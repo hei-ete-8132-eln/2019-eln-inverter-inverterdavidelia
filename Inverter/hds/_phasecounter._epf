@@ -1,2 +1,2 @@
-DEFAULT_FILE atom phaseCounter_RTL.vhd
+DEFAULT_FILE atom phase@counter/student@version.bd
 DEFAULT_ARCHITECTURE atom studentVersion

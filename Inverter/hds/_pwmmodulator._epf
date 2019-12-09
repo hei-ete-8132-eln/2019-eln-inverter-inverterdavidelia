@@ -1,2 +1,2 @@
-DEFAULT_FILE atom pwmModulator_RTL.vhd
+DEFAULT_FILE atom pwm@modulator/student@version.bd
 DEFAULT_ARCHITECTURE atom studentVersion
