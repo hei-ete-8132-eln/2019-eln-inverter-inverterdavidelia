@@ -46,7 +46,7 @@ settingsMap [
 "GlitchGeneration"
 "1"
 "InitCmd"
-"U:/Git_Inverter/2019-eln-inverter-inverterdavidelia/Simulation/pwmModulator.do"
+"U:/Git_Inverter/2019-eln-inverter-inverterdavidelia/Simulation/inverterControl.do"
 "LogFile"
 ""
 "RemoteHost"

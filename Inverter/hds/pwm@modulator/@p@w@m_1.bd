@@ -123,11 +123,11 @@ value "U:\\Git_Inverter\\2019-eln-inverter-inverterdavidelia\\Prefs\\..\\Inverte
 )
 (vvPair
 variable "SideDataDesignDir"
-value "U:\\Git_Inverter\\2019-eln-inverter-inverterdavidelia\\Prefs\\..\\Inverter\\hds\\pwm@modulator\\student@version.bd.info"
+value "U:\\Git_Inverter\\2019-eln-inverter-inverterdavidelia\\Prefs\\..\\Inverter\\hds\\pwm@modulator\\@p@w@m_1.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "U:\\Git_Inverter\\2019-eln-inverter-inverterdavidelia\\Prefs\\..\\Inverter\\hds\\pwm@modulator\\student@version.bd.user"
+value "U:\\Git_Inverter\\2019-eln-inverter-inverterdavidelia\\Prefs\\..\\Inverter\\hds\\pwm@modulator\\@p@w@m_1.bd.user"
 )
 (vvPair
 variable "SourceDir"
@@ -139,7 +139,7 @@ value "HDL Designer"
 )
 (vvPair
 variable "arch_name"
-value "studentVersion"
+value "PWM_1"
 )
 (vvPair
 variable "concat_file"
@@ -159,19 +159,19 @@ value "U:\\Git_Inverter\\2019-eln-inverter-inverterdavidelia\\Prefs\\..\\Inverte
 )
 (vvPair
 variable "date"
-value "05.12.2019"
+value "10.12.2019"
 )
 (vvPair
 variable "day"
-value "jeu."
+value "mar."
 )
 (vvPair
 variable "day_long"
-value "jeudi"
+value "mardi"
 )
 (vvPair
 variable "dd"
-value "05"
+value "10"
 )
 (vvPair
 variable "designName"
@@ -187,15 +187,15 @@ value "<TBD>"
 )
 (vvPair
 variable "f"
-value "student@version.bd"
+value "@p@w@m_1.bd"
 )
 (vvPair
 variable "f_logical"
-value "studentVersion.bd"
+value "PWM_1.bd"
 )
 (vvPair
 variable "f_noext"
-value "student@version"
+value "@p@w@m_1"
 )
 (vvPair
 variable "graphical_source_author"
@@ -203,7 +203,7 @@ value "elia.scapini"
 )
 (vvPair
 variable "graphical_source_date"
-value "05.12.2019"
+value "10.12.2019"
 )
 (vvPair
 variable "graphical_source_group"
@@ -215,7 +215,7 @@ value "WEA20305"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:13:46"
+value "09:55:51"
 )
 (vvPair
 variable "group"
@@ -255,11 +255,11 @@ value "décembre"
 )
 (vvPair
 variable "p"
-value "U:\\Git_Inverter\\2019-eln-inverter-inverterdavidelia\\Prefs\\..\\Inverter\\hds\\pwm@modulator\\student@version.bd"
+value "U:\\Git_Inverter\\2019-eln-inverter-inverterdavidelia\\Prefs\\..\\Inverter\\hds\\pwm@modulator\\@p@w@m_1.bd"
 )
 (vvPair
 variable "p_logical"
-value "U:\\Git_Inverter\\2019-eln-inverter-inverterdavidelia\\Prefs\\..\\Inverter\\hds\\pwmModulator\\studentVersion.bd"
+value "U:\\Git_Inverter\\2019-eln-inverter-inverterdavidelia\\Prefs\\..\\Inverter\\hds\\pwmModulator\\PWM_1.bd"
 )
 (vvPair
 variable "package_name"
@@ -295,15 +295,15 @@ value "bd"
 )
 (vvPair
 variable "this_file"
-value "student@version"
+value "@p@w@m_1"
 )
 (vvPair
 variable "this_file_logical"
-value "studentVersion"
+value "PWM_1"
 )
 (vvPair
 variable "time"
-value "15:13:46"
+value "09:55:51"
 )
 (vvPair
 variable "unit"
@@ -319,7 +319,7 @@ value "2019.2 (Build 5)"
 )
 (vvPair
 variable "view"
-value "studentVersion"
+value "PWM_1"
 )
 (vvPair
 variable "year"
@@ -396,8 +396,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "24000,3400,45300,4400"
-st "amplitude       : signed(pwmBitNb-1 downto 0)
-"
+st "amplitude       : signed(pwmBitNb-1 downto 0)"
 )
 )
 *3 (PortIoIn
@@ -461,8 +460,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "24000,4400,35500,5400"
-st "clock           : std_ulogic
-"
+st "clock           : std_ulogic"
 )
 )
 *5 (PortIoIn
@@ -526,8 +524,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "24000,5400,37400,6400"
-st "doubleFrequency : std_ulogic
-"
+st "doubleFrequency : std_ulogic"
 )
 )
 *7 (PortIoIn
@@ -591,8 +588,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "24000,6400,35400,7400"
-st "en              : std_ulogic
-"
+st "en              : std_ulogic"
 )
 )
 *9 (PortIoOut
@@ -655,8 +651,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "24000,10400,36300,11400"
-st "pwm1            : std_ulogic
-"
+st "pwm1            : std_ulogic"
 )
 )
 *11 (PortIoOut
@@ -719,8 +714,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "24000,11400,36300,12400"
-st "pwm2            : std_ulogic
-"
+st "pwm2            : std_ulogic"
 )
 )
 *13 (PortIoIn
@@ -784,8 +778,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "24000,7400,35500,8400"
-st "reset           : std_ulogic
-"
+st "reset           : std_ulogic"
 )
 )
 *15 (PortIoIn
@@ -849,8 +842,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "24000,8400,37200,9400"
-st "switchEvenOdd   : std_ulogic
-"
+st "switchEvenOdd   : std_ulogic"
 )
 )
 *17 (PortIoIn
@@ -914,8 +906,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "24000,9400,36200,10400"
-st "threeLevel      : std_ulogic
-"
+st "threeLevel      : std_ulogic"
 )
 )
 *19 (Grouping
@@ -1179,7 +1170,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "62200,60400,76400,61600"
+xt "62200,60400,80200,61600"
 st "
 %library/%unit/%view
 "
@@ -1248,8 +1239,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "24000,15600,38400,16600"
-st "SIGNAL gt              : std_ulogic
-"
+st "SIGNAL gt              : std_ulogic"
 )
 )
 *31 (SaComponent
@@ -1402,8 +1392,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "24000,16600,39100,17600"
-st "SIGNAL logic_1         : std_uLogic
-"
+st "SIGNAL logic_1         : std_uLogic"
 )
 )
 *37 (SaComponent
@@ -1660,8 +1649,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "24000,14600,50200,15600"
-st "SIGNAL countUnsigned   : unsigned(pwmBitNb-1 downto 0)
-"
+st "SIGNAL countUnsigned   : unsigned(pwmBitNb-1 downto 0)"
 )
 )
 *46 (SaComponent
@@ -2559,8 +2547,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "24000,13600,48800,14600"
-st "SIGNAL countSigned     : signed(pwmBitNb-1 downto 0)
-"
+st "SIGNAL countSigned     : signed(pwmBitNb-1 downto 0)"
 )
 )
 *72 (Wire
@@ -3197,7 +3184,7 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "0,0,1921,1066"
-viewArea "-5065,-8346,118524,60128"
+viewArea "-4400,-9900,151356,76396"
 cachedDiagramExtent "-13400,0,110600,64000"
 pageSetupInfo (PageSetupInfo
 ptrCmd ""
@@ -3221,7 +3208,7 @@ exportStdPackageRefs 1
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "-3000,0"
-lastUid 859,0
+lastUid 947,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

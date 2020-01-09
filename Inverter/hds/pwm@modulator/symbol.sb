@@ -553,19 +553,19 @@ value "U:\\Git_Inverter\\2019-eln-inverter-inverterdavidelia\\Prefs\\..\\Inverte
 )
 (vvPair
 variable "date"
-value "05.12.2019"
+value "16.12.2019"
 )
 (vvPair
 variable "day"
-value "jeu."
+value "lun."
 )
 (vvPair
 variable "day_long"
-value "jeudi"
+value "lundi"
 )
 (vvPair
 variable "dd"
-value "05"
+value "16"
 )
 (vvPair
 variable "designName"
@@ -597,7 +597,7 @@ value "elia.scapini"
 )
 (vvPair
 variable "graphical_source_date"
-value "05.12.2019"
+value "16.12.2019"
 )
 (vvPair
 variable "graphical_source_group"
@@ -609,7 +609,7 @@ value "WEA20305"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:11:17"
+value "13:57:50"
 )
 (vvPair
 variable "group"
@@ -737,7 +737,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "15:11:17"
+value "13:57:50"
 )
 (vvPair
 variable "unit"
@@ -1890,6 +1890,6 @@ xt "0,6600,0,6600"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 934,0
+lastUid 980,0
 activeModelName "Symbol"
 )
